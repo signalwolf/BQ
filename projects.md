@@ -1,5 +1,5 @@
 # Machine learning assisted wireless communication system design on HST
-1. We are the LTE modem group, modem is the chipset help your phone to connected to LTE towers.
+We are the LTE modem group, modem is the chipset help your phone to connected to LTE towers.
 In wireless communication, the connection quality is highly related to the speed of movement. Just
 image you running from one tower to another, it is not too hard to suffer any connection issue. 
 But if you are on HST in China, then it is a problem because it moves 350 Km/h. 
@@ -29,14 +29,14 @@ Later I tried SVM, deep neuron network and RNN to solve the problem. But unfortu
 compute power is really small. So deep neuron network and RNN not get implemented, otherwise your phone
 could have much better performance.
 
-2.  The tuning method: Cross validation. 
-3.  Fun parts: everyone in system team is really into their field, so they don't have too many info in 
+### The tuning method: Cross validation. 
+### Fun parts: everyone in system team is really into their field, so they don't have too many info in 
 machine learning. The first time I told them, they think it is not possible to do it because they think
 it must consume lots of power and memories. But since we are using the logistic regression, it is just 
 few adding and multiply, it really not a big deal. In the memories side, they think the average and variation
 calculation must compute based on saving those data to memory, then I present them with the moving average
 and moving variations. 
-4.  Challenge parts: The challenge part is clean the data, all the project I did before is cleaned data, 
+### Challenge parts: The challenge part is clean the data, all the project I did before is cleaned data, 
 so you don't care about the missing data, category data. So, that's the first challenge thing I meet; The
 other parts is you are doing this thing by your own, their is no teacher to tell you, hey Xu, this part 
 is wrong. Actually, this is another reason why I wanted to join your company, I can learn, grow and have fun
