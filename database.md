@@ -29,3 +29,12 @@ Also, I handled the save method for this database.
 
 
 ### Fun parts:
+After 2 -3 years, the saving method suddenly not working. But if you filter some of the IEs, the save 
+function still works. It sounds a real weird question, right? After debug, I found that the save func 
+could output an Excel using python module xlwt and Excel have an limitation on number of columns. It 
+can't handle more than 256 columns. So, if the output entities is more than 256, issue occurs but if 
+you filter the IEs, then the entities goes to less than 256, so the issue disappear.
+Our solution is change it to CSV, csv is pretty much like txt files. So, it can have unlimited output. 
+That's weird and funnest mistake I ever made. 
+
+### 
