@@ -37,4 +37,20 @@ you filter the IEs, then the entities goes to less than 256, so the issue disapp
 Our solution is change it to CSV, csv is pretty much like txt files. So, it can have unlimited output. 
 That's weird and funnest mistake I ever made. 
 
-### 
+# Database中使用的基本的操作
+USE 数据库名 :
+选择要操作的Mysql数据库，使用该命令后所有Mysql命令都只针对该数据库
+SHOW DATABASES: 
+列出 MySQL 数据库管理系统的数据库列表。
+SHOW TABLES:
+显示指定数据库的所有表，使用该命令前需要使用 use 命令来选择要操作的数据库。
+SHOW COLUMNS FROM 数据表:
+显示数据表的属性，属性类型，主键信息 ，是否为 NULL，默认值等其他信息。
+SHOW INDEX FROM 数据表:
+显示数据表的详细索引信息，包括PRIMARY KEY（主键）。
+SHOW TABLE STATUS LIKE [FROM db_name] [LIKE 'pattern'] \G: 
+该命令将输出Mysql数据库管理系统的性能及统计信息。
+MySQL 创建数据库
+CREATE DATABASE 数据库名;
+MySQL 删除数据库
+drop database <数据库名>;
