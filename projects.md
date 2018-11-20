@@ -1,3 +1,10 @@
+#目录
+[Machine learning assisted wireless communication system design on HST](#Machine-learning-assisted-wireless-communication-system-design-on-HST) 
+[The tuning method](#The-tuning-method) 
+[fun parts](#fun-parts) 
+[challenge parts](#challenge-parts)
+
+
 # Machine learning assisted wireless communication system design on HST
 We are the LTE modem group, modem is the chipset help your phone to connected to LTE towers.
 In wireless communication, the connection quality is highly related to the speed of movement. Just
@@ -29,15 +36,17 @@ Later I tried SVM, deep neuron network and RNN to solve the problem. But unfortu
 compute power is really small. So deep neuron network and RNN not get implemented, otherwise your phone
 could have much better performance.
 
-### The tuning method: Cross validation. 
-### Fun parts: everyone in system team is really into their field, so they don't have too many info in 
-machine learning. The first time I told them, they think it is not possible to do it because they think
+### The tuning method
+Cross validation. 
+
+### Fun parts: 
+everyone in system team is really into their field, so they don't have too many info in machine learning. The first time I told them, they think it is not possible to do it because they think
 it must consume lots of power and memories. But since we are using the logistic regression, it is just 
 few adding and multiply, it really not a big deal. In the memories side, they think the average and variation
 calculation must compute based on saving those data to memory, then I present them with the moving average
 and moving variations. 
-### Challenge parts: The challenge part is clean the data, all the project I did before is cleaned data, 
-so you don't care about the missing data, category data. So, that's the first challenge thing I meet; The
+### Challenge parts: 
+The challenge part is clean the data, all the project I did before is cleaned data, so you don't care about the missing data, category data. So, that's the first challenge thing I meet; The
 other parts is you are doing this thing by your own, their is no teacher to tell you, hey Xu, this part 
 is wrong. Actually, this is another reason why I wanted to join your company, I can learn, grow and have fun
 5;  
